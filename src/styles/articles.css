@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#article p {
+  @apply mt-4 text-lg leading-relaxed text-gray-700;
+}
+
+#article a {
+  @apply border-b-2 border-black hover:border-green-700 hover:no-underline hover:text-green-700;
+}
+
+#article h2 {
+  @apply text-4xl mt-4 font-bold font-sans;
+}
+
+#article ul {
+  @apply list-disc ml-8 sm:ml-16 text-lg;
+}
+
+#article img {
+  @apply mx-auto mt-4;
+}
+
+#article td {
+  @apply text-lg font-normal pt-2 text-gray-500;
+}
+
+#article h2 br {
+  display: none !important;
+}
